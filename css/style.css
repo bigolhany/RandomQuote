@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
+    color: black;
+    background-color: black !important;
+    
+}
+.wrapper{
+    height: 100vh;
+    
+}
+.quote-box{
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+.btn{
+    display: flex !important;
+}
+.quote-author{
+    text-align: right;
+    font-family: 'Cinzel', serif;
+}
+.quote-text{
+    font-family: 'Cinzel', serif;
+}
+i{
+    padding-right: 17px;
+    padding-left: 17px;
+}
+.par{
+    top: 150px;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    
+}
+@media (max-width:576px) {
+    .par{
+        top: 40px;
+        padding: 20px;
+    }
+    
+}
